@@ -12,20 +12,8 @@ user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
-/assets
-/logs
-/system
-/user_guide
-/composer.json
-/favicon.ico
-/license.txt
-/contributing.md
-/index.php
-/.gitignore
-/readme.rst
-/composer.lock
-/vendor
-/application
+/vendor/
+
 # IDE Files
 #-------------------------
 /nbproject/

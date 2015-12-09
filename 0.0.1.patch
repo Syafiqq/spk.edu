@@ -1,0 +1,80 @@
+Index: logs/access.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- logs/access.log	(revision f4dd8c0dfe71bf5388c8ca29bff6e5a159f54c00)
++++ logs/access.log	(revision )
+@@ -48,3 +48,12 @@
+ 127.0.0.1 - - [08/Dec/2015:17:37:37 +0700] "GET /auth/login HTTP/1.1" 200 1253 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+ 127.0.0.1 - - [08/Dec/2015:17:37:39 +0700] "GET /auth/login HTTP/1.1" 200 1252 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+ 127.0.0.1 - - [08/Dec/2015:17:37:58 +0700] "GET /auth/login HTTP/1.1" 200 1138 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
++127.0.0.1 - - [09/Dec/2015:09:33:01 +0700] "GET / HTTP/1.1" 403 1066
++127.0.0.1 - - [09/Dec/2015:09:33:01 +0700] "GET /favicon.ico HTTP/1.1" 403 1052
++::1 - - [09/Dec/2015:09:34:09 +0700] "GET / HTTP/1.1" 403 1068
++::1 - - [09/Dec/2015:09:34:09 +0700] "GET /favicon.ico HTTP/1.1" 403 1054
++::1 - - [09/Dec/2015:09:37:54 +0700] "GET / HTTP/1.1" 500 2393
++::1 - - [09/Dec/2015:09:37:55 +0700] "GET /favicon.ico HTTP/1.1" 200 3638
++127.0.0.1 - - [09/Dec/2015:09:38:01 +0700] "GET / HTTP/1.1" 500 2393
++127.0.0.1 - - [09/Dec/2015:09:38:01 +0700] "GET /favicon.ico HTTP/1.1" 200 3638
++127.0.0.1 - - [09/Dec/2015:09:44:12 +0700] "GET / HTTP/1.1" 500 2393
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision f4dd8c0dfe71bf5388c8ca29bff6e5a159f54c00)
++++ .gitignore	(revision )
+@@ -12,8 +12,20 @@
+ user_guide_src/cilexer/build/*
+ user_guide_src/cilexer/dist/*
+ user_guide_src/cilexer/pycilexer.egg-info/*
+-/vendor/
+-
++/assets
++/logs
++/system
++/user_guide
++/composer.json
++/favicon.ico
++/license.txt
++/contributing.md
++/index.php
++/.gitignore
++/readme.rst
++/composer.lock
++/vendor
++/application
+ # IDE Files
+ #-------------------------
+ /nbproject/
+Index: composer.lock
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- composer.lock	(revision f4dd8c0dfe71bf5388c8ca29bff6e5a159f54c00)
++++ composer.lock	(revision )
+@@ -4,7 +4,7 @@
+         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+         "This file is @generated automatically"
+     ],
+-    "hash": "c7d2339afdb28c9c33e2500719d92a8f",
++    "hash": "afaad4b608fe1f5c4745f73368858423",
+     "content-hash": "163eb4764cfceda4201e2d993dd1e79d",
+     "packages": [],
+     "packages-dev": [
+Index: logs/error.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- logs/error.log	(revision f4dd8c0dfe71bf5388c8ca29bff6e5a159f54c00)
++++ logs/error.log	(revision )
+@@ -1,1 +1,4 @@
++[Wed Dec 09 09:33:01.065429 2015] [authz_core:error] [pid 6120:tid 1696] [client 127.0.0.1:54741] AH01630: client denied by server configuration: E:/Documents/JetBrains/PhpStorm/spk.edu/
++[Wed Dec 09 09:33:01.397460 2015] [authz_core:error] [pid 6120:tid 1696] [client 127.0.0.1:54741] AH01630: client denied by server configuration: E:/Documents/JetBrains/PhpStorm/spk.edu/favicon.ico, referer: http://spk.edu:10001/
++[Wed Dec 09 09:34:09.333984 2015] [authz_core:error] [pid 6120:tid 1696] [client ::1:54800] AH01630: client denied by server configuration: E:/Documents/JetBrains/PhpStorm/spk.edu/
++[Wed Dec 09 09:34:09.609375 2015] [authz_core:error] [pid 6120:tid 1696] [client ::1:54800] AH01630: client denied by server configuration: E:/Documents/JetBrains/PhpStorm/spk.edu/favicon.ico, referer: http://localhost:10001/
+ 
+\ No newline at end of file
