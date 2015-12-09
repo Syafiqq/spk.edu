@@ -1,0 +1,4 @@
+[Wed Dec 09 09:33:01.065429 2015] [authz_core:error] [pid 6120:tid 1696] [client 127.0.0.1:54741] AH01630: client denied by server configuration: E:/Documents/JetBrains/PhpStorm/spk.edu/
+[Wed Dec 09 09:33:01.397460 2015] [authz_core:error] [pid 6120:tid 1696] [client 127.0.0.1:54741] AH01630: client denied by server configuration: E:/Documents/JetBrains/PhpStorm/spk.edu/favicon.ico, referer: http://spk.edu:10001/
+[Wed Dec 09 09:34:09.333984 2015] [authz_core:error] [pid 6120:tid 1696] [client ::1:54800] AH01630: client denied by server configuration: E:/Documents/JetBrains/PhpStorm/spk.edu/
+[Wed Dec 09 09:34:09.609375 2015] [authz_core:error] [pid 6120:tid 1696] [client ::1:54800] AH01630: client denied by server configuration: E:/Documents/JetBrains/PhpStorm/spk.edu/favicon.ico, referer: http://localhost:10001/

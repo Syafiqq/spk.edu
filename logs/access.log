@@ -48,3 +48,22 @@
 127.0.0.1 - - [08/Dec/2015:17:37:37 +0700] "GET /auth/login HTTP/1.1" 200 1253 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
 127.0.0.1 - - [08/Dec/2015:17:37:39 +0700] "GET /auth/login HTTP/1.1" 200 1252 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
 127.0.0.1 - - [08/Dec/2015:17:37:58 +0700] "GET /auth/login HTTP/1.1" 200 1138 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+127.0.0.1 - - [09/Dec/2015:09:33:01 +0700] "GET / HTTP/1.1" 403 1066
+127.0.0.1 - - [09/Dec/2015:09:33:01 +0700] "GET /favicon.ico HTTP/1.1" 403 1052
+::1 - - [09/Dec/2015:09:34:09 +0700] "GET / HTTP/1.1" 403 1068
+::1 - - [09/Dec/2015:09:34:09 +0700] "GET /favicon.ico HTTP/1.1" 403 1054
+::1 - - [09/Dec/2015:09:37:54 +0700] "GET / HTTP/1.1" 500 2393
+::1 - - [09/Dec/2015:09:37:55 +0700] "GET /favicon.ico HTTP/1.1" 200 3638
+127.0.0.1 - - [09/Dec/2015:09:38:01 +0700] "GET / HTTP/1.1" 500 2393
+127.0.0.1 - - [09/Dec/2015:09:38:01 +0700] "GET /favicon.ico HTTP/1.1" 200 3638
+127.0.0.1 - - [09/Dec/2015:09:44:12 +0700] "GET / HTTP/1.1" 500 2393
+127.0.0.1 - - [09/Dec/2015:10:11:20 +0700] "GET / HTTP/1.1" 200 1987
+127.0.0.1 - - [09/Dec/2015:10:11:31 +0700] "GET /login HTTP/1.1" 404 1190
+127.0.0.1 - - [09/Dec/2015:10:11:31 +0700] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [09/Dec/2015:10:11:37 +0700] "GET /auth/login HTTP/1.1" 200 2466
+127.0.0.1 - - [09/Dec/2015:10:11:37 +0700] "GET /assets/plugins/other_components/metro.ui/css/metro.css HTTP/1.1" 200 413039
+127.0.0.1 - - [09/Dec/2015:10:11:37 +0700] "GET /assets/plugins/other_components/metro.ui/css/metro-responsive.css HTTP/1.1" 200 16958
+127.0.0.1 - - [09/Dec/2015:10:11:37 +0700] "GET /assets/plugins/other_components/metro.ui/css/metro-icons.css HTTP/1.1" 200 137941
+127.0.0.1 - - [09/Dec/2015:10:11:37 +0700] "GET /assets/plugins/bower_components/jquery/dist/jquery.min.js HTTP/1.1" 200 84384
+127.0.0.1 - - [09/Dec/2015:10:11:37 +0700] "GET /assets/plugins/other_components/metro.ui/js/metro.js HTTP/1.1" 200 307851
+127.0.0.1 - - [09/Dec/2015:10:11:37 +0700] "GET /assets/plugins/other_components/metro.ui/fonts/metro.woff?izvoei HTTP/1.1" 200 121556
